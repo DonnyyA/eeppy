@@ -110,7 +110,7 @@ class QuestionsActivity : AppCompatActivity() {
          } else {
             val floatInputs = convertValueofInputs(inputs)
             doInference(floatInputs, interpreter)
-            if (result == "none"){
+            if (result == "None"){
                MaterialAlertDialogBuilder(this, com.google.android.material.R.style.ThemeOverlay_Material3_MaterialAlertDialog_Centered)
                   .setTitle("Result")
                   .setMessage("Your test result is you have no disorder, make sure to keep your body well rested")
